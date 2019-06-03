@@ -213,12 +213,15 @@ namespace BluetoothExample
         static Scanner()
         {
             Instance = new Scanner();
+        
         }
 
-        public Scanner()
-        {
+        //TextView _textView;
 
-        }
+        //public Scanner(TextView textView)
+        //{
+        //    _textView = textView;
+        //}
 
         public override void OnBatchScanResults(IList<ScanResult> results)
         {
